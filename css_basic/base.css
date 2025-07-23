@@ -1,8 +1,9 @@
 /* Importing webfonts */
 /* (If you're learning CSS, you should disregard that) */
 
-@import url(https://fonts.googleapis.com/css?family=Yeseva+One);
-@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic);
+/* @import url(https://fonts.googleapis.com/css?family=Yeseva+One);
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,700,700italic,400italic); */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 
 /* CSS reset rules */
@@ -56,8 +57,10 @@ table {
 /* Fonts and colors */
 
 body {
-	font-family: 'Josefin Sans', serif;
-	color: rgba(0, 0, 0, 0.8);
+	font-family: 'dm sans', serif;
+	/* color: rgba(0, 0, 0, 0.8); */
+	color: #FFE3F1;
+	background-color: #C43670;
 }
 h1, h2, h3, h4, h5, h6, header {
 	font-family: 'Yeseva One', sans-serif;
@@ -65,25 +68,25 @@ h1, h2, h3, h4, h5, h6, header {
 article {
 }
 header {
-	border-bottom: 1px solid rgb(221,221,221);
+	border-bottom: 1px solid #ffd3da60;
 	transition: border-bottom-color 1s ease;
 }
 header a {
-	color: rgba(0, 0, 0, 0.8);
+	color: #FFE3F1;
 }
 aside {
-	background: #FAFAFA;
+	background: #FAFAFA20;
 }
 aside p {
-	border: 1px solid #bbb;
-	background: #ddd;
-	color: black;
+	border: 1px solid #ffd3da;
+	background: #FFD3DA;
+	color: #E50C7F;
 }
 footer a {
-	color: rgba(0, 0, 0, 0.8);
+	color: #fff;
 }
 a {
-	color: #F80002;
+	color: #FFE3F1;
 }
 
 
@@ -113,8 +116,8 @@ header .right {
 
 /* Header */
 header {
-	padding: 20px 0;
-	height: 80px;
+	padding: 40px 0 24px 0 ;
+	/* height: 60px; */
 }
 header ul {
 	list-style: none;
