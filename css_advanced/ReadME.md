@@ -1,0 +1,1 @@
+This is the css advancedprctical where i have to practice all of what i have been taught to gauge my understanding of the topic. i will be recreating a website, and here is the link to the live preview.
