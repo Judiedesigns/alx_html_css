@@ -417,3 +417,8 @@ margin-top: 16px;
   line-height: 1.7;
   color: #666;
 }
+
+footer {
+    padding:100px 80px ;
+    background-color: #071629;
+}
